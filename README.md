@@ -37,6 +37,15 @@ Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos
 > git config --global user.email "tu@email.com"
 > git config --global user.name "Tu Nombre"
 
+Si por algún motivo te equivocaste en el nombre o email puedes cambiarlo de esta forma:
+
+> git config --global --replace-all user.name “Aquí va tu nombre modificado”
+
+O si lo deseas eliminar y añadir uno nuevo
+
+> git config --global --unset-all user.name :Elimina el nombre del usuario
+> git config --global --add user.name “Aquí va tu nombre”
+
 ## Comandos para iniciar tu repositorio en Git
 
 ```sh
