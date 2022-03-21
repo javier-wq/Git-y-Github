@@ -23,5 +23,7 @@ Algunos Comandos Basicos para la terminal son:
 > cat: Ver el contenido de un archivo (por ejemplo, cat nombre-archivo.txt).
 
 >ls: Nos permite cambiar ver los archivos de la carpeta donde estamos ahora mismo. Podemos usar uno o más argumentos para ver más información sobre estos archivos (los argumentos pueden ser -- + el nombre del argumento o - + una sola letra o shortcut por cada argumento). 
+
 > ls -a: Mostrar todos los archivos, incluso los ocultos.
+
 > ls -l: Ver todos los archivos como una lista.
