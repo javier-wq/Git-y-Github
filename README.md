@@ -25,3 +25,27 @@ Algunos Comandos Basicos para la terminal son:
 > ls: permite ver los archivos que hayan en la carpeta donde nos encontremos.
 
 > cd: permite movernos entre directorios o carpetas.
+
+## Introducción a Git
+
+Le indicaremos a Git que queremos crear un nuevo repositorio para utilizar su sistema de control de versiones. Solo debemos posicionarnos en la carpeta raíz de nuestro proyecto y ejecutar el comando:
+
+> git init
+
+Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos darle un poco de información sobre nosotros. No debemos hacerlo todas las veces que ejecutamos un comando, basta con ejecutar solo una sola vez los siguientes comandos con tu información:
+
+> git config --global user.email "tu@email.com"
+> git config --global user.name "Tu Nombre"
+
+## Comandos para iniciar tu repositorio en Git
+
+```sh
+git init: para inicializar el repositorio git y el staged
+git add nombre_del_archivo.txt: enviar el archivo al staged
+git status: ver el estado, si se requiere agregar al starget o si se requiere commit
+git conf: para ver las posibles configuraciones
+git conf --list: para ver la lista de configuraciones hechas
+git conf --list --show-origin: para mostrar las configuraciones y sus rutas
+git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
+git rm nombre_del_archivo.txt: para eliminar del repositorio
+```
