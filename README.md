@@ -12,5 +12,4 @@ La terminal o consola es un dispositivo electrónico o electromecánico que se u
 
 Algunos Comandos Basicos para la terminal son:
 
->pwd
-Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+>pwd //Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
